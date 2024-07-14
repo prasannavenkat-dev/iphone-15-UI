@@ -1,0 +1,42 @@
+.menu-item {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.apple-logo svg {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.menu-item svg {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.menu-inner-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -.01em;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 22px;
+}
+
+li {
+  list-style: none;
+}
+
+.icon-menu > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-outer-wrapper{
+    background: #000000;
+}

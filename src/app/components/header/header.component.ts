@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+
+  menuItems = ["Store","Mac","iPad","iPhone","Watch","AirPods","TV & Home","Entertainment","Accessories","Support"]
 }
