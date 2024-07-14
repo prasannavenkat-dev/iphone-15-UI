@@ -1,0 +1,41 @@
+.main-wrapper {
+  height: calc(100vh - 44px - 44px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-video-headline {
+  background-image: url(../../../../public/logo_iphone_15_pro__bbizfm0fjsw2_medium_2x.png);
+  background-size: 171px 25px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 171px;
+  position: absolute;
+  /* margin-bottom: 20px; */
+}
+
+.ribbon-wrapper{
+    padding: 14px 0;
+    color: rgb(245,245,247);
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    background-color: rgb(29,29,31);
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: auto 0;
+}
+
+video {
+  width: 1200px;
+}
